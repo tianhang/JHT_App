@@ -1,0 +1,43 @@
+/* home.wxss */
+
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+}
+
+/*.cell-container{
+  margin: 0;
+  padding:0;
+}*/
+
+swiper{
+  height: 180px;
+}
+/*
+.flex-wrp {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+
+.flex-item {
+  display: flex;
+  box-sizing: border-box;
+  width: 33.5%;
+  height: 110px;
+  border: 1px solid #F4F6F6;
+  margin-right:-1px; 
+  margin-bottom:-1px;
+  justify-content: center;
+  align-items: center;
+  color:#353535;
+}*/
+
+.cell-item {
+  border-right:1rpx solid #F4F6F6;
+  border-bottom:1rpx solid #F4F6F6;
+
+}
