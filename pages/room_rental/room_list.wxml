@@ -45,5 +45,8 @@
             {{item}}
         </view>
     </view>
+
+    <!-- content -->
+    
     <view class="fullbg {{isfull ?'fullopacity':''}}" bindtap="hidebg"></view>
 </view>
