@@ -1,0 +1,80 @@
+<!--page/one/index.wxml-->
+<view class="page">
+  <view class="nav">
+    <view class="nav-son {{shownavindex == 1? 'active' : ''}}" bindtap="listqy" data-nav="1">
+      <view class="content">区域</view>
+      <view class="icon"></view>
+    </view>
+
+    <view class="nav-son borders {{shownavindex == 2? 'active' : ''}}" bindtap="list" data-nav="2">
+      <view class="content">租金</view>
+      <view class="icon"></view>
+    </view>
+
+    <view class="nav-son borders {{shownavindex == 3? 'active' : ''}}" bindtap="listpx" data-nav="3">
+      <view class="content">排序</view>
+      <view class="icon"></view>
+    </view>
+
+    <view class="nav-son borders {{shownavindex == 4? 'active' : ''}}" bindtap="listpx" data-nav="4">
+      <view class="content">更多</view>
+      <view class="icon"></view>
+    </view>
+  </view>
+  <view class="quyu {{qyopen ? 'slidown' : 'slidup'}} {{qyshow ? 'disappear':''}}">
+    <view class="qy quyu-left">
+      <view class="{{select1 == index ? 'current' : ''}}" wx:for="{{cityleft}}" bindtap="selectleft" data-city='{{index}}'>
+        {{index}}
+      </view>
+    </view>
+    <view class="qy quyu-center">
+      <view class="{{select2 == index ? 'current2' : ''}}" wx:for="{{citycenter}}" bindtap="selectcenter" data-city='{{index}}'>
+        {{index}}
+      </view>
+    </view>
+    <view class="qy quyu-right">
+      <view wx:for="{{cityright}}">
+        {{item}}
+      </view>
+    </view>
+  </view>
+  <view class="temp temp1 {{nzopen ? 'slidown' : 'slidup'}} {{nzshow ? 'disappear':''}}">
+    <view wx:for="{{content}}">
+      {{item}}
+    </view>
+  </view>
+  <view class="temp temp2 {{pxopen ? 'slidown' : 'slidup'}} {{pxshow ? 'disappear':''}}">
+    <view wx:for="{{content}}">
+      {{item}}
+    </view>
+  </view>
+
+  <!-- content -->
+
+  <view class="page__bd">
+    <view class="weui-panel weui-panel_access">
+      <scroll-view scroll-y style="height:650px" class="weui-panel__bd">
+        <navigator wx:for="{{[1,2,3,4,5,7,8,9,10,11,12,13]}}" url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb room-image" src="./room2.jpg" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg2">
+            <view class="weui-media-box__title">合租.成家公寓</view>
+            <view class="weui-media-box__desc">套间 28m 朝北</view>
+            <view class="weui-media-box__desc">距离7号线南楼新庄路306m</view>
+            <view class="weui-media-box__desc">
+              <view class="room-tag">公寓</view> 
+              <view class="room-tag">押一付一 </view> 
+              <view class="room-tag">小区住宅</view> 
+               
+               
+            </view>
+          </view>
+        </navigator>
+      </scroll-view>
+    </view>
+
+
+  </view>
+  <view class="fullbg {{isfull ?'fullopacity':''}}" bindtap="hidebg"></view>
+</view>

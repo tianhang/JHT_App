@@ -17,7 +17,7 @@ Page({
     [
       {
         title: '租房服务',
-        URL: "../../pages/room_rental/room_list"
+        URL: "../../pages/rental/room_list"
       },
       {
         title: '留学服务',
