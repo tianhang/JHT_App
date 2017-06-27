@@ -54,20 +54,22 @@
   <view class="page__bd">
     <view class="weui-panel weui-panel_access">
       <scroll-view scroll-y style="height:650px" class="weui-panel__bd">
-        <navigator wx:for="{{[1,2,3,4,5,7,8,9,10,11,12,13]}}" url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <navigator wx:for="{{[1,2,3,4,5,7,8,9,10,11,12,13]}}" url="./detail/room_detail" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
           <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
             <image class="weui-media-box__thumb room-image" src="./room2.jpg" />
           </view>
-          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg2">
+          <view class="weui-media-box__bd room-des">
             <view class="weui-media-box__title">合租.成家公寓</view>
-            <view class="weui-media-box__desc">套间 28m 朝北</view>
+            <view class="weui-media-box__desc" style="display: flex;justify-content: space-between">
+              <text >套间 28m 朝北</text>
+              <text class="room-price">1000S$</text>
+            </view>
+          
             <view class="weui-media-box__desc">距离7号线南楼新庄路306m</view>
             <view class="weui-media-box__desc">
               <view class="room-tag">公寓</view> 
               <view class="room-tag">押一付一 </view> 
               <view class="room-tag">小区住宅</view> 
-               
-               
             </view>
           </view>
         </navigator>

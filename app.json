@@ -4,7 +4,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/location/category/category",
-    "pages/rental/room_list"
+    "pages/rental/room_list",
+    "pages/rental/detail/room_detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

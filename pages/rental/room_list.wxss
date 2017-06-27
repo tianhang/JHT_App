@@ -237,14 +237,26 @@ page {
   max-height: 100%;
 }
 
+.room-des{
+  width:70%;
+}
 .room-tag {
   border-radius: 2px;
   background-color: #dcdcdc;
   color: black;
   font-size: 10px;
   display: inline-flex;
-  width: 30%;
   align-items: center;
   justify-content: center;
   margin-right: 3%;
+}
+
+.room-price{
+  font-size:16px;
+  color:orange;
+  /*justify-content: flex-end ;*/
+}
+
+.room-type{
+  overflow-y: hidden;
 }
