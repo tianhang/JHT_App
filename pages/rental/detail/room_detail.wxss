@@ -29,3 +29,6 @@ text-align-last:justify;
 font-size: 15px;
 
 }
+.weui-form-preview__item{
+	text-align: left;
+}
