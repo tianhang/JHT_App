@@ -1,2 +1,58 @@
-<!--room_detail.wxml-->
-<text>room_detail.wxml</text>
+<!--header -->
+<view class="page">
+  <!--主体-->
+  <view class="page__bd">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class="weui-form-preview">
+    <view class="weui-form-preview__hd">
+      <view class="weui-form-preview__item">
+        <!-- <view class="weui-form-preview__label">付款金额</view> -->
+        <view class="weui-form-preview__value_in-hd">西城白纸坊都是情缘45Ping 米1室1厅1卫</view>
+      </view>
+    </view>
+    <view class="weui-form-preview__bd">
+      <view class="weui-form-preview__item">
+        <view class="weui-form-preview__label">商品</view>
+        <view class="weui-form-preview__value">电动打蛋机</view>
+      </view>
+      <view class="weui-form-preview__item">
+        <view class="weui-form-preview__label">标题</view>
+        <view class="weui-form-preview__value">名字名字名字</view>
+      </view>
+      <view class="weui-form-preview__item">
+        <view class="weui-form-preview__label">标题</view>
+        <view class="weui-form-preview__value">长的名字</view>
+
+      </view>
+       <view class="weui-flex">
+            <view class="weui-flex__item">
+            	 <view class="weui-form-preview__item">
+        <view class="weui-form-preview__label">商品</view>
+        <view class="weui-form-preview__value">电动打蛋机</view>
+      </view>
+            </view>
+            <view class="weui-flex__item">
+            	 <view class="weui-form-preview__item">
+        <view class="weui-form-preview__label">商品</view>
+        <view class="weui-form-preview__value">电动打蛋机</view>
+      </view>
+        	</view>
+        </view>
+    </view>
+
+ 
+    <view class="weui-form-preview__ft">
+                <navigator class="weui-form-preview__btn weui-form-preview__btn_default" hover-class="weui-form-preview__btn_active">辅助操作</navigator>
+                <navigator class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">操作</navigator>
+     </view>
+  </view>
+
+</view>

@@ -1,1 +1,31 @@
 /* room_detail.wxss */
+swiper{
+  height: 200px;
+}
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.weui-form-preview__hd{
+	text-align: left;
+	line-height: 1.5em;
+}
+.weui-form-preview__value_in-hd{
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.weui-form-preview__label {
+float:left;
+margin-right:0em;
+min-width:0em;
+color:#999999;
+text-align:justify;
+text-align-last:justify;
+font-size: 15px;
+
+}

@@ -33,7 +33,6 @@ Page({
       px: ['默认排序', '离我最近', '价格最低', '价格最高']
     })
   },
-
   listqy: function (e) {
     if (this.data.qyopen) {
       this.setData({

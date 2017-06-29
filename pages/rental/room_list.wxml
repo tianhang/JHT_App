@@ -78,5 +78,5 @@
 
 
   </view>
-  <view class="fullbg {{isfull ?'fullopacity':''}}" bindtap="hidebg"></view>
+  <!-- <view class="fullbg {{isfull ?'fullopacity':''}}" bindtap="hidebg"></view> -->
 </view>
