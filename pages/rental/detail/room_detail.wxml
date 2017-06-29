@@ -19,18 +19,57 @@
       </view>
     </view>
     <view class="weui-form-preview__bd">
-  
+         <view class="weui-flex">
+        <view class="weui-flex__item">
+          <view class="weui-form-preview__item">
+            <view class="weui-form-preview__label">租金:</view>
+            <view class="weui-form-preview__value" style="color:red;">500¥</view>
+          </view>
+        </view>
+
+   
+      </view>
       <view class="weui-flex">
         <view class="weui-flex__item">
           <view class="weui-form-preview__item">
-            <view class="weui-form-preview__label">商品 :</view>
+            <view class="weui-form-preview__label">标题 :</view>
             <view class="weui-form-preview__value">电动打蛋机</view>
           </view>
         </view>
 
         <view class="weui-flex__item">
           <view class="weui-form-preview__item">
-            <view class="weui-form-preview__label">商品 :</view>
+            <view class="weui-form-preview__label">标题 :</view>
+            <view class="weui-form-preview__value">电动打蛋机</view>
+          </view>
+        </view>
+      </view>
+         <view class="weui-flex">
+        <view class="weui-flex__item">
+          <view class="weui-form-preview__item">
+            <view class="weui-form-preview__label">标题 :</view>
+            <view class="weui-form-preview__value">电动打蛋机</view>
+          </view>
+        </view>
+
+        <view class="weui-flex__item">
+          <view class="weui-form-preview__item">
+            <view class="weui-form-preview__label">标题 :</view>
+            <view class="weui-form-preview__value">电动打蛋机</view>
+          </view>
+        </view>
+      </view>
+               <view class="weui-flex">
+        <view class="weui-flex__item">
+          <view class="weui-form-preview__item">
+            <view class="weui-form-preview__label">标题 :</view>
+            <view class="weui-form-preview__value">电动打蛋机</view>
+          </view>
+        </view>
+
+        <view class="weui-flex__item">
+          <view class="weui-form-preview__item">
+            <view class="weui-form-preview__label">标题 :</view>
             <view class="weui-form-preview__value">电动打蛋机</view>
           </view>
         </view>
